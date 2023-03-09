@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import "./theme";
+
+//美化占位符 placeholder
+@mixin beautyPlaceholder($fz, $color: #999, $align: left) {
+  &:-moz-placeholder {
+    font-size: $fz;
+    color: $color;
+    text-align: $align;
+  }
+  &:-ms-input-placeholder {
+    font-size: $fz;
+    color: $color;
+    text-align: $align;
+  }
+  &::-webkit-input-placeholder {
+    font-size: $fz;
+    color: $color;
+    text-align: $align;
+  }
+}
+
+//文本不换行
+@mixin noWrap(){
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+//透明度
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE
+}
+
+//flex
+@mixin flex ($direction: row, $justify-content: flex-start, $align-items: flex-start,$flex-wrap: nowrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $flex-wrap;
+}
+

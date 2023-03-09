@@ -1,0 +1,49 @@
+/*
+颜色
+*/
+
+$app-bg-light-color:#FFF;
+$app-bg-dark-color:#F7F7F7;
+$app-btn-disable-color:#3b74dd;
+$app-def-dark-color:#3b74dd;
+$app-def-loading-color: #42b3f1;
+$app-def-dark-opt-color:#f3f9fc; //rgba(28, 143, 206, 0.05)
+$app-hover-light-blue:#cbe2ef; //rgba(28, 143, 206, 0.2);
+$app-def-danger-border-color:#D43030; //rgba(212, 48, 48, 1);
+$app-loading-btn-color: #9AB6EB;
+
+/*
+边框、圆角
+*/
+
+$app-radius-def:3px;
+
+/*
+字体、字号、粗度
+*/
+
+$app-font-color:#333;
+$app-font-title-gray-color:#333333; //rgba(51, 51, 51, 1);
+$app-font-title-ligth-gray-color: #666666;
+$app-font-title-dark-gray-color: #999999;
+$app-font-gray-color:#7a7a7a; //rgba(51, 51, 51, 0.65)
+$app-font-size:14px;
+$app-HanSansCN-Regular:SourceHanSansCN-Regular;
+$app-HanSansCN-Bold:SourceHanSansCN-Bold;
+$app-font-def-title-w: 500;
+/*
+窗口大小，边距等
+*/
+
+$app-window-width:365px;
+$app-window-height:600px;
+$app-container-padding: 20px 15px;
+$app-card-padding: 8px 12px;
+
+/*
+业务板块
+*/
+
+$app-nev-title-bg: #e6e6e6; //rgba(230, 230, 230, 1)
+$app-box-msg-bg: #F2F2F2; //rgba(230, 230, 230, 1)
+$app-icon-handle-color: #C4C4C4 //rgba(196, 196, 196, 1.00);

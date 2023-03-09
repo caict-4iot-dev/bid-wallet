@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import "./theme";
+//.vant-type-name
+.van-button--info.btn-info {
+    border-radius: 3px;
+    background-color: $app-def-dark-color;
+}
+
+.van-button--info.btn-info.van-button--plain {
+    background-color: initial;
+    border-color: $app-def-dark-color;
+    color: $app-def-dark-color;
+}
+
+.van-button--danger.btn-danger {
+    border-radius: 3px;
+    border: 1px solid $app-def-danger-border-color;
+    color: $app-def-danger-border-color;
+}
+
+.van-button--info.btn-info.van-button--disabled {
+    background: rgba(59, 116, 221, 0.45);
+    border: 1px solid #FFF;
+    opacity: inherit;
+}
+
+.van-checkbox .van-checkbox__icon--square .van-icon {
+    border-radius: 3px;
+}
+
+.van-checkbox .van-checkbox__icon--square.van-checkbox__icon--checked .van-icon {
+    background-color: $app-def-dark-color;
+}
+
+.gray-box .van-divider {
+    border-color: rgba(229, 229, 229, 1);
+    margin-bottom: 20px;
+}
+
+.van-dialog {
+    border-radius: 5px!important;
+}
+
+.van-dialog__confirm,
+.van-dialog__confirm:active {
+    color: $app-def-dark-color!important;
+}
+
+.van-dialog__content--isolated {
+    min-height: 72px!important;
+}
+
+.van-dialog__header {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    padding-top: 22px !important;
+}
+
+.app-loading-full .van-loading__spinner {
+    margin-top: 50%;
+}
+
+.van-overlay {
+    position: absolute!important;
+}
+
+.network-handle .van-overlay {
+    position: fixed!important;
+}
+
+.van-popup {
+    position: absolute!important;
+}
+
+.van-checkbox__label {
+    color: #999!important;
+}
+
+.van-button--info.btn-info.van-button--plain {
+    border: none;
+    background: #f2f3f5;
+}
+
+.window-pop {
+    .van-dialog {
+        top: 37%;
+    }
+}
+
+.connect-step-box .van-radio-group {
+    margin-top: 20px;
+}
+
+.connect-step-box .van-radio {
+    margin-bottom: 10px;
+}
+
+.van-button--loading.van-button--info.btn-info {
+    background-color: $app-loading-btn-color;
+    border-color: $app-loading-btn-color;
+}
+
+.file-upload-box{
+  .van-uploader,.van-uploader__wrapper,.van-uploader__input-wrapper{
+    width: 100%;
+  }
+}
+
+.lang-info-btn.btn-info.van-button { width: 100%;border: 1px solid rgba(59,116,221,1)!important;border-radius: 4px!important;font-size: 16px;background: #FFF;height:36px; }
+.handle-info-btn.btn-info.van-button{ width: 45%;border: 1px solid rgba(59,116,221,1)!important;border-radius: 4px!important;height:36px;float: left; }
+.handle-info-btn.btn-info.van-button:first-child{ margin-right:10%;background: #FFF; }
+
+
+.collapse-view .van-cell__title{ color:#666; }
+
+.confirm-handle-style .van-loading__spinner{ width: 22px;height:22px; }
