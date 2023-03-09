@@ -167,7 +167,6 @@ bidWallet.signAuth(obj, function(resp){
 **返回值：**
 
 ```javascript
-// resp:
 {
     "code": 0,
     "data": {
@@ -235,9 +234,7 @@ bidWallet.getPV(obj, function(resp){
 | data.result       | Boolean | 验证结果                |
 | data.errorMessage | String | 验证（不通过）的描述信息              |
 
-```json
-resp:
-
+```javascript
 {
   code: 0,
   data: {
